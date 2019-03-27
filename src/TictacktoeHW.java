@@ -1,9 +1,9 @@
 public class TictacktoeHW {
     public static void main(String[] args) {
         int [][] tictactoe = new int [][] {
-            new int [] { -1 , 1 , 1},
-            new int [] { 0 , 1 , 0},
-            new int [] { 1 , 0 , 1},
+            new int [] { 0 , 0 , 0},
+            new int [] { 0 , 0 , 0},
+            new int [] { 0 , 0 , 0},
         };
 
         // 1 represent X
