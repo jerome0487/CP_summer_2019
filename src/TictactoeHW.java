@@ -1,4 +1,4 @@
-public class TictacktoeHW {
+public class TictactoeHW {
     public static void main(String[] args) {
         int [][] tictactoe = new int [][] {
             new int [] { 0 , 0 , 0},
