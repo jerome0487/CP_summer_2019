@@ -1,14 +1,15 @@
 public class TictactoeHW {
     public static void main(String[] args) {
         int [][] tictactoe = new int [][] {
-            new int [] { 0 , 0 , 0},
-            new int [] { 0 , 0 , 0},
-            new int [] { 0 , 0 , 0},
+            new int [] { 1 , 0 , 0},
+            new int [] { 1 , 0 , 0},
+            new int [] { 1 , 0 , 0},
         };
 
         // 1 represent X
         // -1 represent O
         //and 0 to represent an empty field
+
 
 
         for (int i=0;i<3;i++) {
@@ -54,7 +55,6 @@ public class TictactoeHW {
         if (tictactoe[0][2] + tictactoe[1][1] + tictactoe[2][0] == -3) {
             System.out.println("O win");
         }
-
 
 
 
